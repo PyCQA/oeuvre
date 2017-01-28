@@ -1,0 +1,8 @@
+recursive-include src *.py
+recursive-include tests *.py
+recursive-include docs *.rst *.py
+include *.rst
+include LICENSE
+include *.ini
+global-excluse *.pyc
+prune docs/build/
