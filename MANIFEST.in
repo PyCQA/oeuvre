@@ -4,5 +4,5 @@ recursive-include docs *.rst *.py
 include *.rst
 include LICENSE
 include *.ini
-global-excluse *.pyc
+global-exclude *.pyc
 prune docs/build/
